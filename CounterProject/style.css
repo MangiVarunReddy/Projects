@@ -1,0 +1,106 @@
+body{
+    background-color: #4c4177;
+    /* background-color: #7f5a83; */
+background-image: linear-gradient(315deg, #4c4177 0%, #2e5470 74%);
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+
+}
+
+.form-area, .counter, .complete{
+    padding: 20px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 10%;
+}
+
+.form-area input{
+    display: block;
+    margin: 15px;
+    padding:15px;
+    margin-left: 0px;
+    width: 300px;
+    /* margin-right: 0px; */
+}
+
+.form-area{
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(47, 47, 243);
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #2e5470;
+    cursor: pointer;
+}
+
+/* counter div */
+
+.counter li{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.counter h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+li span{
+    display: block;
+    font-size: 80px;
+    text-align: center;
+    background-color:rgb(231 237 244 / 35%);
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.complete-title{
+    animation: complete 4s infinite;
+    text-align: center;
+    
+    
+}
+
+@keyframes complete{
+    0%{
+        color: red;
+        
+    }
+    25%{
+        color: yellowgreen;
+        transform: rotate(10deg);
+        
+    }
+    50%{
+        color: green;
+        transform:scale(1.5);
+        
+
+    }
+    75%{
+        color: blue;
+        transform: rotate(-10deg);
+        
+    }
+    100%{
+        color: lightgreen;
+        transform: rotate(0);
+       
+    }
+}
