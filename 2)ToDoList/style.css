@@ -1,0 +1,104 @@
+body{
+    /* background-color: #16222A;
+    background-image: linear-gradient( 44deg, #16222A -7%,#3A6073 106%); */
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#container{
+    border: #0F2027;
+    width: 600px;
+    height: fit-content;
+    box-shadow: 3px 14px 32px 5px black;
+}
+
+#topdiv{
+    
+    height: fit-content;
+    width: fit-content;
+    margin-left: 60px;
+    margin-top: 8%;
+    position: relative;
+    
+    
+}
+
+#topdiv input{
+    width: 386px;
+    height: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#topdiv button{
+    width: 85px;
+    height: 51px;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -1px;
+    background-color: #4646fd;
+    color: white;
+    border: none;
+    
+}
+
+#bottomdiv{
+    /* border: 1px solid white; */
+    margin: 35px;
+    width: 460px;
+    height: fit-content;
+    margin-left: 60px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    
+}
+
+.todofield{
+    /* border: 1px solid white; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#22a8e8 ;
+    width: 420px;
+    height: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 5px;
+    
+    /* display: none; */
+    
+}
+
+.todofield input{
+    width: 20px;
+}
+.todofield .todovalue{
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.todofield button{
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+    background-color: #0c91d1;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
