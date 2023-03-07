@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    
+    min-height: 100vh;
+    background-color: #e5e5fd;
+    border: 10px solid #1d1e4c;
+}
+
+.content{
+    
+    width: 900px;
+    margin: 0px auto;
+    
+}
+.top_section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.top_section .img_container{
+    width: fit-content;
+    height: fit-content;
+}
+.top_section img{
+    width: 300px;
+    height: 370px;
+    border-radius: 150px 150px;
+    box-shadow: 2px 5px 13px -4px black;
+}
+/* .top_section img:hover{
+    box-shadow: 2px 5px 13px -4px rgb(170, 170, 245);
+} */
+
+#name_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20%;
+    
+
+}
+#name{
+    font-size: 45px;
+    font-weight: 300;
+    font-family: 'Inter';
+}
+#years{
+    font-size: 25px;
+    text-align: end;
+    font-weight: lighter;
+}
+
+
+/* about section */
+
+#about_section{
+    margin-top: 90px;
+}
+
+#about_section h1{
+    font-size: 70px;
+    font-weight: 200;
+    font-family: 'Inter'; 
+}
+
+#about_section p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#biography{
+    margin-top: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+#biography h3{
+    font-weight: 200;
+}
+
+#biography ul{
+    font-weight: 200;
+    
+width: 650px;
+margin-top: 20px;
+
+}
+
+#biography .credits{
+    margin-top: 50px;
+    text-align: end;
+}
